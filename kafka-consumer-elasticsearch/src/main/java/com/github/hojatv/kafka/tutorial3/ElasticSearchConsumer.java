@@ -120,6 +120,7 @@ public class ElasticSearchConsumer {
     }
 
     public RestHighLevelClient createClient() {
+        //please don't hack me!
         String hostname = "abshar-554503681.eu-central-1.bonsaisearch.net";
         String username = "828mwqmipw";
         String password = "6ezomvebas";
